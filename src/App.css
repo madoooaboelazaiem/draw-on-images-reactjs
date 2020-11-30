@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+.drawArea {
+  border: 1px solid black;
+  float: left;
+}
+
+.path {
+  fill: none;
+}
+
+.drawing {
+  width: 100%;
+  height: 100%;
+}
