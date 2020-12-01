@@ -28,10 +28,10 @@ class Main extends React.Component {
           console.log(img.width + 'x' + img.height);
           let h = img.height
           let w = img.width
-          while(h>.9*window.innerHeight || w>window.innerWidth){
-            h=Math.floor(.9*h)
-            w=Math.floor(.9*w)
-          }
+          // while(h>.9*window.innerHeight || w>window.innerWidth){
+          //   h=Math.floor(.9*h)
+          //   w=Math.floor(.9*w)
+          // }
           this.setState({
             height:h,
             width:w
