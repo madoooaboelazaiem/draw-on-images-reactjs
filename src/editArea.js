@@ -139,7 +139,7 @@ class DrawArea extends React.Component {
   }
 
   downloadPhoto=()=>{ 
-    domtoimage.toPng(document.getElementById('drawArea'), { quality: 0.95 })
+    domtoimage.toPng(document.getElementById('drawArea'), { quality: 1 })
     .then(function (dataUrl) {
     var link = document.createElement('a');
     link.download = 'editiedImage.png';
